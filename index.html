@@ -119,14 +119,38 @@
         <section id="portfolio" class="section">
             <h2 class="section-title">Portofolio</h2>
             <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <div class="portfolio-img">
-                        <img src="https://via.placeholder.com/400x300" alt="Project 1">
-                    </div>
-                    <div class="portfolio-info">
-                        <span>E-Commerce</span>
-                        <h3>Toko Online Fashion</h3>
-                    </div>
+               <div class="portfolio-item">
+            
+            <!-- 1. Judul Project di paling atas gambar -->
+            <h4 class="project-tag">Project 1</h4> 
+
+            <!-- 2. Wadah Gambar Sertifikat -->
+            <div class="portfolio-img">
+                <a href="#popup-sertifikat">
+                    <img src="sertifikat-kompetensi.jpg" alt="Project 1" title="Klik untuk memperbesar">
+                </a>
+            </div>
+            
+        
+        <div class="portfolio-info">
+
+            <h3>Sertifikasi Kompetensi - Teknik Komputer dan Jaringan</h3>
+            <p>Daftar kompetensi dan unit yang diuji untuk proyek sistem pemantauan jaringan dan server, disertifikasi oleh CV. Omega Digital Solusindo.</p>
+            <a href="sertifikat-kompetensi.pdf" target="_blank" class="btn-download">Lihat PDF Sertifikat</a>
+        </div>
+
+            <!-- 4. Pop-up Lightbox untuk Zoom -->
+            <div id="popup-sertifikat" class="lightbox-overlay">
+                <a href="#" class="lightbox-close-area"></a>
+                <div class="lightbox-content">
+                    <a href="#" class="btn-close-lightbox">&times;</a>
+                    <img src="sertifikat-kompetensi.jpg" alt="Sertifikat Zoom">
+                </div>
+            </div>
+
+        </div>
+         
+</div>
                 </div>
                 <div class="portfolio-item">
                     <div class="portfolio-img">
