@@ -256,3 +256,31 @@ body {
     from { transform: scale(0.7); opacity: 0; }
     to { transform: scale(1); opacity: 1; }
 }
+
+
+.portfolio-info .project-points {
+    margin-top: 18px;        
+    margin-bottom: 28px;     
+    padding-left: 20px;      
+    list-style-type: disc;  
+}
+
+.portfolio-info .project-points li {
+    font-size: 17px;         
+    color: #ccc;
+    line-height: 1.7;         
+    margin-bottom: 10px;      
+    font-weight: 400;
+}
+
+.portfolio-info .btn-download {
+    display: inline-block;    
+    margin-top: 15px;         
+    margin-bottom: 25px;
+}
+
+    .portfolio-info a.btn-download {
+    display: inline-block !important;
+    margin-top: 20px !important;     
+    margin-bottom: 30px !important;   
+    }
